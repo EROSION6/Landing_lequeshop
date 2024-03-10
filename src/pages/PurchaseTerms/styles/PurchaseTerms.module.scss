@@ -1,0 +1,36 @@
+.purchaseTerms {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+
+	.content {
+		width: 1124px;
+
+		.blocks {
+			margin-top: 50px;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			gap: 40px;
+		}
+	}
+
+	@media (max-width: 1280px) {
+		.content {
+			width: 100%;
+			.blocks {
+				gap: 20px;
+			}
+		}
+	}
+	@media (max-width: 1024px) {
+		.content {
+			width: 100%;
+			.blocks {
+				flex-direction: column;
+			}
+		}
+	}
+}

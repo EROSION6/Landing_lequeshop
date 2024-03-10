@@ -1,0 +1,33 @@
+.bannerBlack,
+.bannerBlue {
+	border: 1px solid rgba(128, 128, 128, 0.285);
+	cursor: pointer;
+
+	h2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		padding: 20px 60px;
+		color: #fff;
+		font-size: 18px;
+
+		b {
+			font-size: 18px;
+			font-weight: 400;
+			color: #4fc8de;
+		}
+	}
+
+	@media (max-width: 768px) {
+		width: 100%;
+		h2 {
+			display: flex;
+			font-size: 12px;
+			padding: 10px;
+		}
+		b {
+			font-size: 14px;
+		}
+	}
+}

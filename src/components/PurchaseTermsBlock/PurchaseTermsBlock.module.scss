@@ -1,0 +1,39 @@
+.purchaseTermsBlock {
+	h2 {
+		display: flex;
+		gap: 8px;
+		margin-bottom: 40px;
+		span {
+			&:nth-child(1) {
+				color: #34dacc;
+				font-size: 24px;
+			}
+			&:nth-child(2) {
+				color: #fff;
+				font-size: 24px;
+			}
+		}
+	}
+	.conditions {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+		> div {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+
+			span {
+				color: #34dacc;
+				line-height: 23px;
+				font-size: 16px;
+			}
+			p {
+				color: #fff;
+				line-height: 23px;
+				font-size: 16px;
+			}
+		}
+	}
+}

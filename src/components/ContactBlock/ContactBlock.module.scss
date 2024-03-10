@@ -1,0 +1,52 @@
+.containers {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+
+	.blocks {
+		height: auto;
+		padding: 20px;
+		align-items: flex-start;
+		display: flex;
+		width: 500px;
+		flex-direction: column;
+
+		.title {
+			h4 {
+				color: #fff;
+			}
+		}
+
+		.text {
+			padding: 0 20px;
+			ul {
+				display: flex;
+				flex-direction: column;
+				gap: 8px;
+
+				li {
+					color: #fff;
+					list-style: decimal;
+				}
+			}
+		}
+
+		.buttonCont {
+			width: 100%;
+			margin-top: 12px;
+			.buttons {
+				width: 100%;
+			}
+		}
+	}
+
+	@media (max-width: 1024px) {
+		.blocks {
+			width: 100%;
+		}
+	}
+	@media (max-width: 768px) {
+		padding: 0 5px;
+	}
+}
